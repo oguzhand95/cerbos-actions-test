@@ -11,4 +11,4 @@ resourcePolicy:
       effect: EFFECT_ALLOW
       condition:
         match:
-          expr: now() - timestamp(R.attr.deletedAt) > duration('1h')
+          expr: now() - timestamp(R.attr.deletedAt) > duration('2h')
